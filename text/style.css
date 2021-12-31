@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* .item {
+    order: 5; /* default is 0 */
+/* } */ 
+*{
+    margin:20px
+}
+.box{
+    width:150px;
+    height:100px;
+    background-color: aqua;
+}
+
+.box2{
+    width:150px;
+    height:90px;
+    background-color: aqua;
+}
+
+ul{
+    background-color: chocolate;
+}

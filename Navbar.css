@@ -26,8 +26,8 @@
 
 
 @keyframes to-a{
-    from{background-color:white;}
-    to{background-color: black;}
+    from{background-color:white;font-size: 25px;}
+    to{background-color: black;font-size: 26px;}
 }
 
 a{ 

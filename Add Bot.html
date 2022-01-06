@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="Icons/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <nav id='navbar'>
+        <p><a href="Index.html">Spudnik.xyz</a></p>
+        <ul class="navHover">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Appearance</a>
+            <ul class="dark">
+                <li><a class="" href="">Light Mode</a></li>
+                <li><a class="" href="" onmousehover="dark()">Dark Mode</a></li>
+            </ul>
+            </li>
+            <li><a href="">About</a></li>
+            <li><a href="">Log in</a></li>
+        </ul>
+    </nav>
+
+    <p style="margin:65px; padding-left: 5%;">
+        <ul style="list-style: none;">
+            <li>Server</li>
+            <form>
+            <label>Choose a browser from this list:</label>
+                <select for="browsers" name="myBrowser">
+                <datalist id="browsers">
+                  <option value="Chrome">Chrome</option>
+                  <option value="Firefox">Firefox</option>
+                  <option value="Internet Explorer">Internet Explorer</option>
+                  <option value="Opera">Opera</option>
+                  <option value="Safari">Safari</option>
+                  <option value="Microsoft Edge">Edge</option>
+                </datalist>
+                </select>
+                <input type="submit">
+                </form>
+            <!-- 
+                <form action="/action_page.php">
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <input type="submit">
+                </form>
+             -->
+        </ul>
+    </p>
+</body>
+</html>
